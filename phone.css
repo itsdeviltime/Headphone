@@ -1,0 +1,163 @@
+/* navigation bar  */
+
+
+
+
+
+#navbar{
+    flex-direction: column;
+
+}
+#navbar::before{
+    height: 697px;
+}
+
+#navbar #logo{
+    width: 90px ;
+ height: 50px ;
+ margin: 12px auto ;
+}
+#navbar ul{
+margin: 5px auto;
+}
+#navbar ul li a{
+font-size:12px;
+padding:2px 4px ;
+margin: 3px 6px ;
+}
+
+#home{
+    margin: 133px 8px;
+    width: 80%;
+}
+
+#home .h-primary{
+    font-size: 2.7rem;
+}
+#home .h-secondry{
+    font-size: 2.2rem;
+}
+#home p{
+    font-size: 20px;
+}
+#home .btn{
+    font-size: 20px ;
+}
+
+/* product-section */
+#product-section{
+    flex-wrap: wrap;
+}
+
+#p-information {
+    width: 100%;
+    margin: 6px 2px;
+}
+#p-information h2 {
+    font-size: 2rem;
+    
+}
+#p-information h5 {
+    font-size: 16px;
+}
+#p-information{
+    font-size: 13px ;
+}
+#p-information .btn1{
+font-size: 20px ;
+}
+#p-img {
+    margin: 22px 14px;
+}
+
+#p-img img{
+    height: 303px;
+} 
+#product2{
+   /* flex-wrap: wrap; */
+   flex-direction: column;
+   height: 659px;
+
+   
+
+}
+#info{
+    margin: 1px 2px;
+    width: 100%;
+}
+#product2 #info h1{
+    font-size: 2rem;
+}
+#product2 #info h3 {
+    font-size: 1.2rem;
+}
+#product-2-img {
+    justify-content: center;
+    width: 100%;
+}
+#product-2-img img{
+    height: 340px;
+    width: 345px;
+    margin: 40px 0px;
+}
+
+/* color section  */
+#colors h1{
+    font-size: 2.4rem;
+}
+
+#box h2 {
+    font-size: 1.2rem;
+}
+#colors #box{
+flex-wrap: wrap;
+}
+
+/* in the box section  */
+
+#Inthebox{
+    flex-direction: column;
+}
+
+#Inthebox #image1 img{
+    height: 300px;
+}
+
+#highlights h1 {
+    font-size: 2.5rem;
+}
+
+#collage{
+    height: 200px;
+}
+
+/* contact section  */
+
+#contact h1{
+    margin: 22px 94px;
+    font-size: 33px;
+    margin-bottom: 0px;
+}
+
+#contact h5{
+    margin: 22px 134px;
+    font-size: 13px;
+    margin-top: 0px;
+}
+#contact-box{
+
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 96%;
+}
+#contact-box form{
+ width: 82%
+}
+#contact-box label{
+
+}
+
+.form-group button{
+
+}
